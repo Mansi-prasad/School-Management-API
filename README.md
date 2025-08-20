@@ -116,9 +116,8 @@ This project demonstrates input validation, database integration, and geospatial
   ```
   
 Server will run on:
-  ``` json http://localhost:5000
-  ```
-
+  `http://localhost:5000`
+  
 ---
 
 ## 🛠 Tech Stack
