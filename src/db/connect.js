@@ -1,11 +1,16 @@
 import mysql from "mysql2";
 import dotenv from "dotenv";
+
 dotenv.config();
 
+const DBUrl = process.env.DBURL;
+
+// Create pool using DB URL
 const pool = mysql.createPool({
-  host: process.env.MYSQL_HOST,
-  database: process.env.MYSQL_DATABASE,
-  user: process.env.MYSQL_USER,
-  password: process.env.MYSQL_PASSWORD,
+  uri: DBUrl,
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0,
 });
+
 export default pool.promise();

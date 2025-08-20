@@ -141,7 +141,7 @@ You can test the APIs easily using **Postman**.
 1. Open Postman → Click **New → HTTP Request**  
 2. Select **POST** method  
 3. Enter the URL: `http://localhost:5000/api/school/addSchool`
-4. 4. Go to **Body → raw → JSON** and add the following payload:  
+4. Go to **Body → raw → JSON** and add the following payload:  
 ```json
 {
   "name": "ABC Public School",
@@ -160,5 +160,5 @@ You can test the APIs easily using **Postman**.
 #### Steps:
 1. Open Postman → Click **New → HTTP Request**.
 2. Select **GET** method.
-3. Enter the URL with query params:  http://localhost:5000/api/school/listSchools?latitude=28.6139&longitude=77.2090
+3. Enter the URL with query params:  `http://localhost:5000/api/school/listSchools?latitude=28.6139&longitude=77.2090`
 4. Click on Send.
