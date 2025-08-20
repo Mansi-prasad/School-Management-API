@@ -13,7 +13,7 @@ app.use(express.json());
 
 // API routes
 app.get("/", (req, res) => {
-  res.send("/ route ");
+  res.send("Home page route ");
 });
 
 app.use("/api/school", schoolRoute);
