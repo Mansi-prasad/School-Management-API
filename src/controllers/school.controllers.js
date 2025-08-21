@@ -5,7 +5,7 @@ import calculateDistance from "../utils/distance.js";
 export const createSchool = async (req, res) => {
   try {
     const { name, address, latitude, longitude } = req.body || {};
-    console.log(name, address, latitude, longitude);
+    
     // input validation
     if (!name || typeof name !== "string" || name.trim() === "") {
       return res

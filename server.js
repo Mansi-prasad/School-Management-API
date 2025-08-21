@@ -6,7 +6,7 @@ import schoolRoute from "./src/routes/school.routes.js";
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 5000;
 
 // middleware
 app.use(express.json());
