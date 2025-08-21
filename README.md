@@ -162,3 +162,12 @@ You can test the APIs easily using **Postman**.
 2. Select **GET** method.
 3. Enter the URL with query params:  `http://localhost:5000/api/school/listSchools?latitude=28.6139&longitude=77.2090`
 4. Click on Send.
+
+--- 
+
+## Live API endpoints 
+https://school-management-api-c838.onrender.com/
+
+**Endpoints:** 
+1. For List Schools -- `/api/school/listSchools?latitude=37.7749&longitude=-122.4194`
+2. For Create School -- `/api/school/addSchool`
